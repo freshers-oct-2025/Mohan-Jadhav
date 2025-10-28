@@ -1,0 +1,40 @@
+body {
+    background-color: hsl(216, 62%, 10%);
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
+}
+
+
+.card-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.card h3 {
+    color: hsl(211, 16%, 75%);
+    margin-top: 20px;
+}
+
+
+.card p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid hsl(215, 32%, 27%);
+}

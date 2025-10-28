@@ -1,0 +1,24 @@
+ #box1 {
+            background-color: red;
+            height: 150px;
+            width: 120px;
+        }
+
+        #box2 {
+            background-color: blueviolet;
+            height: 50vw;
+            width: 20vw;
+        }
+
+        #box3 {
+            background-color: blueviolet;
+            height: 50rem;
+            width: 20rem;
+        }
+
+
+        #box4{
+            background-color: rgb(66, 53, 79);
+            height: 50em;
+            width: 20em;
+        }
