@@ -1,0 +1,46 @@
+#container{
+    
+    margin-top: 100px;
+    /* border: 2px solid black; */
+    /* display: flex; */
+
+}
+
+.box{
+    height: 300px;
+    width: 300px;
+    border: 1px solid rgb(160, 69, 69);
+}
+
+.box1{
+    background-color: aqua;
+}
+
+.box2{
+   /*  position: static;
+    top: 30px;
+    left: 40px; */
+
+    background-color: aquamarine;
+    /* position: absolute;
+    top: 50px;
+    left: 50px; */
+
+    /* position: relative;
+    top: 50px;
+    left: 50px;  */
+
+    /* position: fixed; */
+
+    position: sticky;
+    top: 50px;
+    left: 50px;
+}
+
+.box3{
+    background-color: rgb(61, 61, 74);
+}
+
+.box4{
+    background-color: rgb(94, 77, 109);
+}
