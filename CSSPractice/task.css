@@ -1,0 +1,27 @@
+ .container{
+            background-color: bisque;
+            margin: 2px;
+            padding: 2px;
+            border: 1px solid black;
+            display: flex;
+        }
+
+        .box{
+            background-color: rgb(47, 21, 93);
+            height: 200px;
+            width: 200px;
+            margin:5px ;
+            padding: 5px;
+            border: 5px solid black;
+        }
+
+        @media (min-width:640px){
+            .container{
+                flex-direction: row;
+            }
+        }
+        @media (max-width:640px){
+            .container{
+                flex-direction: column;
+            }
+        }
