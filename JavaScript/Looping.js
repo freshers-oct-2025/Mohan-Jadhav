@@ -1,35 +1,35 @@
 //for loop
 //print all number 0 to n using for loop
-/* let n = prompt("enter the value of n")
-for (let i = 0; i < n; i++) {
+let n1= prompt("enter the value of n")
+for (let i = 0; i < n1; i++) {
     console.log(i);
 }
- */
+
 
 /* ----------------------------------------------------------------------------------------------------------------- */
 //while loop
 //print all even no between 0 to n
-/* let n = prompt("Enter the value of n:");
-let i = 0;
+let n2 = prompt("Enter the value of n:");
+let j = 0;
 
-while (i <= n) {
-    if (i % 2 == 0) {
-        console.log(i);
+while (j <= n2) {
+    if (j % 2 == 0) {
+        console.log(j);
     }
-    i++;
-} */
+    j++;
+}
 
 /* ----------------------------------------------------------------------------------------------------------------- */
 //do while loop
 //print all odd no between 0 to n
-let n = prompt("Enter the value of n:");
-let i = 0;
+let n3 = prompt("Enter the value of n:");
+let k = 0;
 
 do {
-    if (i % 2 != 0) {
-        console.log(i);
+    if (k % 2 != 0) {
+        console.log(k);
     }
-    i++;
-} while (i < n);
+    k++;
+} while (k < n);
 
 

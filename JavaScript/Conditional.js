@@ -1,6 +1,6 @@
 // if else statement 
 
-/* let colour = prompt("Enter traffic light colour:");
+let colour = prompt("Enter traffic light colour:");
 
 if (colour == "red") {
     console.log("stop");
@@ -12,7 +12,7 @@ else if (colour == "yellow") {
     console.log("wait");
 } else {
     console.log("it not a signal colour")
-} */
+}
 
 //switch case statement
 
