@@ -1,0 +1,51 @@
+.container {
+    height: 600px;
+    background-color: brown;
+    display: flex;
+    border: 1px solid black;
+
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    flex-direction: row;
+    /* 
+    flex-wrap: wrap-reverse; */
+    
+    /* 
+     flex-flow: column;   combination of flex direction and flex wrap */
+
+    /* justify-content: center;
+    justify-content: start;
+    justify-content: end; */
+
+
+
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    padding: 15px;
+    border: 2px solid burlywood;
+}
+
+#box1 {
+    background-color: rgb(43, 43, 92);
+
+}
+
+#box2 {
+    background-color: rgb(49, 49, 131);
+
+}
+
+#box3 {
+    background-color: rgb(83, 83, 118);
+
+}
+
+#box4 {
+    background-color: rgb(47, 47, 63);
+
+}
