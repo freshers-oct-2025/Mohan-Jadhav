@@ -1,13 +1,12 @@
-// Import events module
 const EventEmitter = require("events");
 
-// Create event object
+// Create an event emitter object
 const event = new EventEmitter();
 
 // Listen for the event
-event.on("order", (item, qty) => {
-  console.log(`✅ Order received: ${qty} ${item}(s)`);
+event.on("orderPizza", (size, topping) => {
+  console.log(`🍕 Pizza ordered! Size: ${size}, Topping: ${topping}`);
 });
 
-// Trigger (emit) the event
-event.emit("order", "Pizza", 2);
+// Emit (trigger) the event
+event.emit("orderPizza", "Large", "Cheese");
