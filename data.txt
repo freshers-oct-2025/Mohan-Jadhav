@@ -1,0 +1,11 @@
+Today Update:-
+
+Task1 :- 
+what is node js
+installing Node js  
+Creating a Node Server 
+The Node Lifecycle & Event Loop, 
+understanding request  
+Sending Responses
+request routing
+parsing request bodies(stream, chunks, buffer)
